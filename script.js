@@ -21,7 +21,7 @@
 var one = 3;
 var two = 3;
 var thee = 3;
-console.log(one + two + thee); //сума 9 one . two + thee
+console.log(one + two + thee); // вывожу только сума = 9 one + two + thee
  
 //Затем установите для каждой переменной разное значение и снова выведите в консоль.                                   (+)
 
@@ -55,11 +55,7 @@ console.log(typeof(bill));
 let name = "JavaScropt";
 var name_1 = "courses";
 var result;
-//#1 ?
 
-result = name + " " + name_1;
-console.log(result);
-//#2
 result = name + " " + name_1;
 console.log(result); 
 
@@ -69,20 +65,18 @@ console.log(result);
 
 var fill = 1; 
 var z, x;    
-fill++;
-++fill;
-fill++;
-//таки не понял   ?
+(fill++); //2
+(fill++); //3
+(fill++); //4
+
 z = x = fill;
+console.log(fill);
 
 /*6. Необходимо создать переменную типа Number, присвоить ей какое то значение.
 Затем поочередно преобразовать ее в String, Boolean и опять в Number.
 Обратите внимание что необходимо не переназначить, а именно преобразовать переменную в другой тип.*/
-//Number (9);  ? вдруг и так 
-
-/*(9).toString(); //зачем точка ?
-(9).
-(9).valueOf();  //Number*/
+ 
+//(9).valueOf();  //Number*/
 
 var rit = Number (9);
 
@@ -92,8 +86,8 @@ rit = Number(rit);
 
 //
 (rit).toString(); //зачем точка  єто -?
-//(rit).;
+!!rit;
+console.log(typeof(rit));
 (rit).valueOf();  //Number
   
-(rit).strLowerCase();
 
